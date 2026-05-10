@@ -25,9 +25,13 @@ draft.*
 scratch*
 *notes*
 
-# Duplicate PDFs (keep only one copy per assignment)
+# Duplicate PDFs
 * (1).*
 *(1)*
+
+# Report PDFs (not pushed to repo)
+*Report*.pdf
+TCD*.pdf
 
 # Compiled documents
 *.docx

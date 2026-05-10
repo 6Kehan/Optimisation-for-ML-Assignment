@@ -4,7 +4,7 @@
 **Institution:** Trinity College Dublin, School of Computer Science and Statistics  
 **Instructor:** Dr. Mouli Chakraborty
 
-This repository contains five assignments completed for the *Optimisation for Machine Learning* module, covering foundational and advanced optimization algorithms used in machine learning. Each assignment includes executable Jupyter notebooks, question sheets, and PDF reports.
+This repository contains five assignments completed for the *Optimisation for Machine Learning* module, covering foundational and advanced optimization algorithms used in machine learning. Each assignment includes executable Jupyter notebooks and question sheets.
 
 ---
 
@@ -23,8 +23,7 @@ This repository contains five assignments completed for the *Optimisation for Ma
 ### Week 2 — Gradient Descent Fundamentals
 
 **Question sheet:** [`questions_week2.md`](./week2/questions_week2.md)  
-**Notebook:** [`week2.ipynb`](./week2/week2.ipynb)  
-**Report:** [`Week2-Report.pdf`](./week2/Week2-Report.pdf)
+**Notebook:** [`week2.ipynb`](./week2/week2.ipynb)
 
 - **Q1:** SymPy symbolic differentiation, forward finite difference approximation of $f(x)=x^4$, MAE analysis vs. step size $\delta$, gradient descent implementation with multiple learning rates ($\alpha=0.05, 0.5, 1.2$)
 - **Q2:** 2D contour visualization of $f(x)=0.5(x_1^2+10x_2^2)$, narrow valley effect of GD, local minima analysis on $f(x)=x^4-2x^2+0.1x$ with different starting points
@@ -36,8 +35,7 @@ This repository contains five assignments completed for the *Optimisation for Ma
 ### Week 4 — Advanced Optimizers Comparison
 
 **Question sheet:** [`ques.md`](./week4/ques.md)  
-**Notebook:** [`week4.ipynb`](./week4/week4.ipynb)  
-**Report:** [`Week4-Report.pdf`](./week4/Week4-Report.pdf)
+**Notebook:** [`week4.ipynb`](./week4/week4.ipynb)
 
 - **Q1(I):** Comparison of Polyak step size, RMSProp ($\alpha=0.2,\beta=0.9$), Heavy Ball ($\alpha=0.01,\beta=0.9$), and Adam ($\alpha=0.1,\beta_1=0.9,\beta_2=0.999$) on $f(x,y)=x^2+100y^2$ with 200 iterations, log-scale convergence plots
 - **Q1(II):** Heavy Ball learning rate sensitivity — tested $\alpha=0.006, 0.01, 0.02$; $\alpha=0.02$ diverges, demonstrating instability threshold
@@ -51,8 +49,7 @@ This repository contains five assignments completed for the *Optimisation for Ma
 ### Week 6 — Machine Learning Optimization
 
 **Question sheet:** [`week6qs.md`](./week6/week6qs.md)  
-**Notebook:** [`week6.ipynb`](./week6/week6.ipynb)  
-**Report:** [`week6-Report.pdf`](./week6/week6-Report.pdf)
+**Notebook:** [`week6.ipynb`](./week6/week6.ipynb)
 
 - **Q1(a):** Full-batch GD on linear regression $\hat{y}=X\theta$, $m=1000$, $\theta^*=[3,4]^T$, 80 iterations with $\alpha=0.5$, log-loss and contour trajectory plots
 - **Q1(b):** Mini-batch SGD comparison $b=5$ vs $b=20$ over 400 updates; smaller batches yield noisier but faster convergence per-epoch
@@ -69,8 +66,7 @@ This repository contains five assignments completed for the *Optimisation for Ma
 ### Week 8 — Constrained Optimization
 
 **Question sheet:** [`week8_q.md`](./week8/week8_q.md)  
-**Notebook:** [`week8.ipynb`](./week8/week8.ipynb)  
-**Report:** [`Week8_Report.pdf`](./week8/Week8_Report.pdf)
+**Notebook:** [`week8.ipynb`](./week8/week8.ipynb)
 
 - **Q1:** Projected gradient descent on $f(x_1,x_2)=(x_1-1.2)^2+2(x_2-2.5)^2+0.4x_1x_2$ with two constraint sets:
   - $X_1$: box constraints $0.5\le x_1\le2.5$, $0.5\le x_2\le3.5$ (element-wise clipping)
@@ -90,9 +86,7 @@ This repository contains five assignments completed for the *Optimisation for Ma
 ### Final Assignment — Comprehensive Optimization
 
 **Question sheet:** [`Final_q.md`](./Final/Final_q.md)  
-**Notebook:** [`Final.ipynb`](./Final/Final.ipynb)  
-**Report:** [`Final_Report.pdf`](./Final/Final_Report.pdf)  
-**Assignment brief:** [`TCD_Final_Assignment.pdf`](./Final/TCD_Final_Assignment.pdf)
+**Notebook:** [`Final.ipynb`](./Final/Final.ipynb)
 
 The final assignment integrates all concepts across six problems and three benchmark functions:
 
@@ -144,28 +138,19 @@ E:/Data_Analysis/
 ├── README.md
 ├── week2/
 │   ├── week2.ipynb          # Executable code
-│   ├── questions_week2.md   # Problem statements
-│   ├── Week2-Report.pdf     # Written report
-│   └── TCD w2.pdf           # Original assignment brief
+│   └── questions_week2.md   # Problem statements
 ├── week4/
 │   ├── week4.ipynb
-│   ├── ques.md
-│   ├── Week4-Report.pdf
-│   └── TCD_w4.pdf
+│   └── ques.md
 ├── week6/
 │   ├── week6.ipynb
-│   ├── week6qs.md
-│   ├── week6-Report.pdf
-│   └── TCD_w6.pdf
+│   └── week6qs.md
 ├── week8/
 │   ├── week8.ipynb
-│   ├── week8_q.md
-│   └── Week8_Report.pdf
+│   └── week8_q.md
 └── Final/
     ├── Final.ipynb
-    ├── Final_q.md
-    ├── Final_Report.pdf
-    └── TCD_Final_Assignment.pdf
+    └── Final_q.md
 
 ---
 
