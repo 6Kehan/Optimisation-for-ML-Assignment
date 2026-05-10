@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Drafts and scratch files
+draft.*
+scratch*
+*notes*
+
+# Duplicate PDFs (keep only one copy per assignment)
+* (1).*
+*(1)*
+
+# Compiled documents
+*.docx
+
+# Archives
+*.zip
+*.rar
+*.tar.gz
+
+# Environment
+.env
+venv/
+.venv/
